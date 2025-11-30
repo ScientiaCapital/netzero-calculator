@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { createServerClient } from '@netzero/database';
+import { createServerClient } from '@/lib/supabase';
 import { z } from 'zod';
 
 // Validation schema for lead submission

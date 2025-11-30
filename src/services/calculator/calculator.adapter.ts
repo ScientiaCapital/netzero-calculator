@@ -7,7 +7,7 @@
  * 3. Return formatted response for frontend
  */
 
-import { createServerClient } from '@netzero/database';
+import { createServerClient } from '@/lib/supabase';
 import { v4 as uuidv4 } from 'uuid';
 import { SolarCalculator } from '@/lib/calculations';
 import type { SolarCalculationInput, SolarCalculationResult } from '@/lib/calculations';

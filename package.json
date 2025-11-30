@@ -12,8 +12,6 @@
     "test:coverage": "vitest --coverage"
   },
   "dependencies": {
-    "@netzero/core": "file:../netzeroexpert-os/packages/core",
-    "@netzero/database": "file:../netzeroexpert-os/packages/database",
     "@react-google-maps/api": "^2.20.7",
     "@supabase/ssr": "^0.5.2",
     "@supabase/supabase-js": "^2.49.1",

@@ -1,11 +1,8 @@
 /**
- * Database stub - Will be implemented with @netzero/database
- * This file provides type compatibility during migration
+ * Database utilities for NetZero Calculator
  */
 
-import { createBrowserClient, createServerClient } from '@netzero/database';
-
-export { createBrowserClient, createServerClient };
+export { createBrowserClient, createServerClient, getUser, getSession } from './supabase';
 
 // Re-export for backward compatibility
 export const db = {
